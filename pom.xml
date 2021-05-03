@@ -34,17 +34,6 @@
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
-				<!-- Build an executable JAR -->
-				<version>3.1.0</version>
-				<configuration>
-				  <archive>
-					<manifest>
-					  <addClasspath>true</addClasspath>
-					  <classpathPrefix>lib/</classpathPrefix>
-					  <mainClass>com.example.demo.Main</mainClass>
-					</manifest>
-				  </archive>
-				</configuration>
 			</plugin>
 		</plugins>
 	</build>
